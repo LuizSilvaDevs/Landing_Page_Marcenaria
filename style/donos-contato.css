@@ -1,0 +1,52 @@
+/* estilização da historia da macenaria e foto dos donos */
+.historia, .contato{
+    width: 100%;
+    padding: 25px 0px;
+}
+.conteudo-historia{
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    align-items: center;
+    margin: auto;
+}
+.donos-marcenaria img{
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid rgb(176, 172, 172);
+}
+.historia-da-marcenaria article > p{
+    font-size: 18px;
+    font-style: normal;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 8px;
+
+    margin: 15px;
+}
+
+/* estilização do botao de contato pelo whatsapp */
+.btn-contato{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn-contato p{
+    font-weight: bold;
+    font-style: normal;
+    color: #401A0C;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+.btn-contato img{
+    width: 400px;
+    border-radius: 50px;
+    
+}
+.btn-contato img:hover{
+    border: 2px solid rgb(176, 172, 172);
+    box-shadow: 0px 0px 20px 2px rgb(176, 172, 172);;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300..700&display=swap');
+/* cores e fontes de uso do site */
+:root{
+    --color1:#D9C8B4;
+    --color2:#A6633C;
+    --color3:#401A0C;
+    --color4:#A65A3F;
+    --color5:#F2F2F2;
+
+    /* titulo e subtitulo */
+    --pale_gold:#C0B283;
+    /* textos */
+    --silk: #DCD0C0;
+    /* background */
+    --paper: #F4F4F4;
+    /* shadow */
+    --charcoal: #373737;
+
+    --font1:"Quicksand", sans-serif;
+    --font2:"Bebas Neue", sans-serif;
+    --font3:"Libre Baskerville", serif;
+}
+/* zerando margin e padding da pagina */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* estilizando header e img do header */
+header{
+    width: 100%;
+    text-align: center;
+    background-color: var(--charcoal);
+    font-family: var(--font3);
+    border-bottom: 1px solid #401A0C;
+    padding: 25px 0px;
+
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+header h1{
+    font-style: italic;
+    color: var(--pale_gold);
+}
+
+header p.complemento_dkasa{
+    color: var(--silk);
+    font-weight: bold;
+    line-height: 35px;
+}
+header p.descricao{
+    color: var(--silk);
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 35px;
+}
+/* fim do header e img do header */
+
+/* estilizando footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 5px 0px 6px 0px;
+    background-color: var(--charcoal);
+    border-top: 1px solid #401A0C;
+    width: 100%;
+}
+footer p{
+    color: var(--pale_gold);
+    font-weight: bold;
+}
+
+.whatsapp{
+    display: flex;
+    position: fixed;
+    left: 15px;
+    bottom: 10px;
+}
+.whatsapp img{
+    height: 45px;
+    position: relative;
+
+}
+/* fim do footer */
